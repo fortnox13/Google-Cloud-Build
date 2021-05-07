@@ -1,0 +1,6 @@
+steps:
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['build', '-t', 'us-central1-docker.pkg.dev/keen-bazaar-312922/quickstart-docker-repo/my-first-python-app-image:tag1', '.']
+images:
+- 'us-central1-docker.pkg.dev/keen-bazaar-312922/quickstart-docker-repo/my-first-python-app-image:tag1'
+  
